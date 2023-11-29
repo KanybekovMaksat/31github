@@ -1,1 +1,2 @@
-# During the challenge I will develop my portfolio using html css js
+# My portfolio 
+![Introduction](./assets/multimedia/intro.jpeg)

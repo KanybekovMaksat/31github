@@ -1,0 +1,95 @@
+/* @import url(./assets/styles/normalize.css); */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* color: #4cceac; */
+body{
+    background: #141b2d;
+    color: white;
+    font-family: "Inter", "Arial", sans-serif;
+}
+#page{
+    max-width: 1240px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+#sidebar{
+    position: fixed;
+    width: 420px;
+    height: 100%; 
+}
+.sidebar-title{
+    margin: 60px 0 8px;
+    text-transform: uppercase;
+    font-size: 30px;
+    opacity: 0.8;
+}
+.sidebar-subtitle{
+    opacity: 0.7;
+    font-size: 20px;
+}
+.sidebar-text{
+    margin-top: 10px;
+    font-size: 18px;
+    line-height: 28px;
+    opacity: 0.4;
+}
+.sidebar-nav{
+    margin: 40px 0px 50px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.sidebar-nav a{
+    color: white;
+    opacity: 0.4;
+    text-decoration: none;
+    display: flex;
+    font-size: 16px;
+    align-items: center;
+    column-gap: 8px;
+    text-transform: uppercase;
+    transition: .2s;
+}
+.sidebar-nav a::before{
+    content: "";
+    display: block;
+    width: 35px;
+    height: 1px;
+    background: white;
+    transition: .2s;
+}
+.sidebar-nav a:hover::before{
+    width: 70px;
+    background: #4cceac;
+}
+.sidebar-nav a:hover{
+    opacity: 1;
+    color: #4cceac;
+}
+.sidebar-socials{
+    position: absolute;
+    bottom: 7%;
+    display: flex;
+    column-gap: 20px;
+}
+.sidebar-socials a svg{
+    height: 35px;
+    width: 35px;
+    opacity: 0.4;
+}
+#content{
+    margin-left: calc(500px + 50px); 
+    width: calc(100% - 550px); 
+    overflow-y: auto; 
+}
+.sidebar-socials a svg{
+    fill: white;
+    transition: 0.2s;  
+}
+.sidebar-socials a:hover svg {
+    fill:#4cceac; 
+    opacity: 1;
+    scale: 1.1;
+}
