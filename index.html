@@ -6,29 +6,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
     <link rel="stylesheet" href="./style.css" />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
 </head>
-
 <body>
     <div id="page">
         <aside id="sidebar">
-            <h1 class="sidebar-title">Максат Каныбеков</h1>
-            <h3 class="sidebar-subtitle">
-                Front-End Разработчик 
+            <h1 class="sidebar-title animate__animated animate__backInLeft">Максат Каныбеков</h1>
+            <h3 class="sidebar-subtitle  animate__animated animate__backInLeft">
+               Я <span class="auto-type"></span>
             </h3>
-            <p class="sidebar-text">
-                Разработчик с влюбленностью в код и страстью к созданию
-                визуальной магии в онлайн-мире.
+            <p class="sidebar-text animate__animated animate__backInLeft">
+                Разработчик с влюбленностью в код и страстью к созданию визуальной магии в онлайн-мире.
             </p>
-
+            
             <nav class="sidebar-nav">
-                <a href="">О себе</a>
-                <a href="">Навыки</a>
-                <a href="">Опыт</a>
-                <a href="">Проекты</a>
+                <a class="animate__animated animate__zoomInLeft " href="">О себе</a>
+                <a class="animate__animated animate__zoomInLeft " href="">Навыки</a>
+                <a class="animate__animated animate__zoomInLeft " href="">Опыт</a>
+                <a class="animate__animated animate__zoomInLeft " href="">Проекты</a>
             </nav>
 
-            <footer class="sidebar-socials">
-                <a class="svg-link" target="_blank"
+            <footer class="sidebar-socials animate__animated animate__bounceInUp">
+                <a class=" " target="_blank"
                     href="https://mail.google.com/mail/?view=cm&fs=1&to=maksatkanybekov2004@gmail.com">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
                         <path
@@ -70,6 +72,17 @@
             </section>
         </div>
     </div>
+    <script src="./assets/scripts/lib/anime.min.js"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed(".auto-type", {
+            strings:["Ментор", "Стартапер", "Продукт Менеджер", "Front-End Разработчик"],
+            typeSpeed: 50, 
+            showCursor: false,
+            backSpeed: 70,
+            startDelay: 1000,
+        })
+    </script>
     <script type="module" src="./index.js"></script>
 </body>
 
