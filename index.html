@@ -6,27 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
     <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-  />
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
 </head>
+
 <body>
     <div id="page">
         <aside id="sidebar">
             <h1 class="sidebar-title animate__animated animate__backInLeft">Максат Каныбеков</h1>
             <h3 class="sidebar-subtitle  animate__animated animate__backInLeft">
-               Я <span class="auto-type"></span>
+                Я <span class="auto-type"></span>
             </h3>
             <p class="sidebar-text animate__animated animate__backInLeft">
                 Разработчик с влюбленностью в код и страстью к созданию визуальной магии в онлайн-мире.
             </p>
-            
+
             <nav class="sidebar-nav">
                 <a class="animate__animated animate__zoomInLeft " href="">О себе</a>
-                <a class="animate__animated animate__zoomInLeft " href="">Навыки</a>
-                <a class="animate__animated animate__zoomInLeft " href="">Опыт</a>
                 <a class="animate__animated animate__zoomInLeft " href="">Проекты</a>
+                <a class="animate__animated animate__zoomInLeft " href="">Опыт</a>
             </nav>
 
             <footer class="sidebar-socials animate__animated animate__bounceInUp">
@@ -60,9 +61,31 @@
         <div id="content">
             <section id="about">
                 <h2 class="section-title">О Себе</h2>
-            </section>
-            <section id="skills">
-                <h2 class="section-title">Навыки</h2>
+                <p class="about__text">
+                   Я разработчик с более чем двухлетним опытом в создании веб-приложений. 
+                    Окончил средне-специальное образование по информационным технологиям с <span class="mark-box">отличием</span>. 
+                    Сейчас активно участвую в хакатонах,где демонстрирую хорошие результаты.
+                </p>
+                <p class="about__text">
+                    Я активно изучаю новые технологии, а также преподаю курсы по Front-End разработке в IT академиях <a class="mark-box" href="https://www.codifylab.com/">Codify</a> и
+                  <a class="mark-box" href="https://comtehno.kg/">Comtehno</a>, стремясь быть в курсе последних тенденций в мире веб-технологий.
+                </p>
+                <p class="about__text">
+                    Мои навыки включают в себя знания в 
+                    <span class="skill-box">JavaScript</span>,
+                    <span class="skill-box">TypeScript</span>,
+                    <span class="skill-box">React.Js</span>,
+                    <span class="skill-box">Vue.Js</span>,
+                    <span class="skill-box">Node.Js</span>,
+                    <span class="skill-box">Redux</span>,
+                    <span class="skill-box">Material UI</span>,
+                    <span class="skill-box">HTML5</span>,
+                    <span class="skill-box">CSS3 & SCSS</span>.
+                </p>
+                <p class="about__text">
+                    В свободное время от работы я увлекаюсь созданием своего <br> стартапа <span class="mark-box"> Charba</span>, стремясь внести свой вклад
+                    в инновационные решения в сфере, которая меня страстно интересует.
+                </p>
             </section>
             <section id="experince">
                 <h2 class="section-title">Опыт</h2>
@@ -70,19 +93,38 @@
             <section id="projects">
                 <h2 class="section-title">Проекты</h2>
             </section>
+            <!-- <section class="intro swiper">
+                <h2 class="section-title">Мои Награды</h2>
+                <div class="intro__slider">
+                  <div class="swiper-wrapper intro__wrapper">
+                    <div class="intro__content swiper-slide">
+                     <img src="./assets/multimedia/certificate_0.jpg" alt="">
+                    </div>
+                    <div class="intro__content swiper-slide">
+                        <img src="./assets/multimedia/certificate_01.jpg" alt="">
+                    </div>
+                    <div class="intro__content swiper-slide">
+                    <img src="./assets/multimedia/certificate_02.jpg" alt="">
+                    </div>
+                    <div class="intro__content swiper-slide">
+                        <img src="./assets/multimedia/certificate_03.jpg" alt="">
+                        </div>
+                        <div class="intro__content swiper-slide">
+                            <img src="./assets/multimedia/certificate_04.jpg" alt="">
+                            </div>
+
+                  </div>
+                  <div class="slider__controls">
+                    <div class="slider__pagination"></div>
+                  </div>
+                </div>
+              </section> -->
         </div>
     </div>
     <script src="./assets/scripts/lib/anime.min.js"></script>
+
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
-    <script>
-        var typed = new Typed(".auto-type", {
-            strings:["Ментор", "Стартапер", "Продукт Менеджер", "Front-End Разработчик"],
-            typeSpeed: 50, 
-            showCursor: false,
-            backSpeed: 70,
-            startDelay: 1000,
-        })
-    </script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script type="module" src="./index.js"></script>
 </body>
 

@@ -1,2 +1,2 @@
 # My portfolio 
-![Introduction](./assets/multimedia/intro.jpeg)
+![Introduction](./assets/multimedia/intro.png)
