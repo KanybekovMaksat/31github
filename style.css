@@ -92,8 +92,8 @@ position: absolute;
     opacity: 0.4;
 }
 #content{
-    margin-left: calc(500px + 50px); 
-    width: calc(100% - 550px); 
+    margin-left: calc(440px + 50px); 
+    width: calc(100% - 490px); 
     overflow-y: auto; 
 }
 .sidebar-socials a svg{
@@ -122,7 +122,7 @@ position: absolute;
     color: #4cceac;
     font-weight: bold;
     background: #2DD4BF1A;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 .mark-box{
     text-decoration: none;
@@ -162,4 +162,38 @@ position: absolute;
     height: 200px;
     object-fit: cover;
     border-radius: 5px;
+}
+.experince-content{
+    padding: 15px 5px;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    column-gap: 0px;
+    border-radius: 5px;
+    transition: 0.1s ease-in;
+}
+.experience__content-date{
+    max-width: 140px;
+    font-size: 14px;
+    color: #94A3B8;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.exprerince__content-desc{
+    max-width: 500px;
+}
+.experince__desc-position{
+    margin: 0 0 15px;
+    color: #94A3B8;
+    font-size: 20px;
+}
+.experience__desc-list li{
+    color: #94A3B8;
+    margin: 15px 0px;
+}
+.experince-content:hover {
+    background: #94a3b81b;
+}
+.experince-content:hover h4{
+    color: #4cceac;
 }

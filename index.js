@@ -1,7 +1,7 @@
 import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.mjs'
 
 var typed = new Typed(".auto-type", {
-    strings: ["Ментор", "Стартапер", "Продукт Менеджер", "Front-End Разработчик"],
+    strings: ["Ментор", "Стартапер", "Front-End Разработчик"],
     typeSpeed: 50,
     showCursor: false,
     backSpeed: 40,
