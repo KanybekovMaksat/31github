@@ -7,7 +7,9 @@ body{
     background: #141b2d;
     color: white;
     font-family: "Inter", "Arial", sans-serif;
+    overflow-x: hidden;
 }
+
 #page{
     max-width: 1240px;
     margin: 0 auto;
@@ -94,7 +96,7 @@ position: absolute;
 #content{
     margin-left: calc(440px + 50px); 
     width: calc(100% - 490px); 
-    overflow-y: auto; 
+    overflow: hidden; 
 }
 .sidebar-socials a svg{
     fill: white;
@@ -197,3 +199,56 @@ position: absolute;
 .experince-content:hover h4{
     color: #4cceac;
 }
+
+.project-card{
+    margin: 20px 0px;
+    display: flex;
+    align-items: start;
+    column-gap: 50px;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 4px;
+    transition: all 0.2s ease-in-out;
+}
+.project-card img{
+    max-width: 200px;
+    border-radius: 4px;
+}
+.project__card-title{
+    margin: 0;
+    color: #afbdd0;
+}
+.project__card-desc{
+    color: #94A3B8;
+}
+.project-card:hover{
+    background: #94a3b81b;
+}
+.project-card:hover img{
+    opacity: 0.8;
+}
+.project__card-tech span{
+    padding: 4px 10px;
+    color: white;
+    font-size: 12px;
+    background: #4cceab17;
+    border-radius: 20px;
+}
+
+
+#spotlight {
+    position: absolute;
+    z-index: -999;
+    width: 300px;
+    height: 300px;
+    background-color: #104ce25e;
+    border-radius: 50%;
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+    transition: all 0.01s ease-out;
+    filter: blur(150px); 
+    will-change: transform, width, height;
+    mix-blend-mode: difference;
+    user-select: none;
+    touch-action: none;
+  }

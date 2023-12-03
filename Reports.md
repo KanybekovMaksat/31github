@@ -10,3 +10,5 @@
 **Added "About me" section**
 5. [02.12.2023] Fifth day
 **Added "Experience" section**
+6. [03.12.2023] Sixth day
+**Added "Projects" section**
