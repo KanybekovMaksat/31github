@@ -134,6 +134,9 @@ position: absolute;
 .intro__slider .slider__controls .slider__pagination {
     text-align: center;
 }
+.intro{
+    width: 100%;
+}
 
 .intro__slider .slider__controls .slider__pagination .swiper-pagination-bullet {
     width: 13px;
