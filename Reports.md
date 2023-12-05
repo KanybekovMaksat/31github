@@ -12,3 +12,7 @@
 **Added "Experience" section**
 6. [03.12.2023] Sixth day
 **Added "Projects" section**
+7. [04.12.2023] Seventh day
+**Added "Awards" section**
+8. [05.12.2023] Eighth day
+**Change color pallette**

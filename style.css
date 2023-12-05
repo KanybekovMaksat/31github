@@ -4,7 +4,7 @@
 
 /* color: #4cceac; */
 body{
-    background: #141b2d;
+    background: #000000;
     color: white;
     font-family: "Inter", "Arial", sans-serif;
     overflow-x: hidden;
@@ -47,7 +47,7 @@ backdrop-filter: blur(100px);
 position: absolute;
     width: 100px;
     height: 100px;
-    background: #4cceac;
+    background: #BD1616;
 }
 .sidebar-nav{
     margin: 40px 0px 50px;
@@ -76,11 +76,11 @@ position: absolute;
 }
 .sidebar-nav a:hover::before{
     width: 70px;
-    background: #4cceac;
+    background: #BD1616;
 }
 .sidebar-nav a:hover{
     opacity: 1;
-    color: #4cceac;
+    color: #BD1616;
 }
 .sidebar-socials{
     position: absolute;
@@ -103,7 +103,7 @@ position: absolute;
     transition: 0.2s;  
 }
 .sidebar-socials a:hover svg {
-    fill:#4cceac; 
+    fill:#BD1616; 
     opacity: 1;
     scale: 1.1;
 }
@@ -121,7 +121,7 @@ position: absolute;
 }
 .skill-box{
     padding: 2px 7px;
-    color: #4cceac;
+    color: #BD1616;
     font-weight: bold;
     background: #2DD4BF1A;
     border-radius: 5px;
@@ -142,7 +142,7 @@ position: absolute;
     width: 13px;
     height: 12px;
     display: inline-block;
-    background: #4cceac;
+    background: #BD1616;
     margin: 0 5px;
     border-radius: 20px;
     transition: opacity 0.5s, background-color 0.5s, width 0.5s;
@@ -154,7 +154,7 @@ position: absolute;
 }
 
 .intro__slider .slider__controls .slider__pagination .swiper-pagination-bullet-active {
-    background: #4cceac;
+    background: #BD1616;
     width: 50px;
     transition-delay: 0s;
 }
@@ -180,7 +180,7 @@ position: absolute;
 .experience__content-date{
     max-width: 140px;
     font-size: 14px;
-    color: #94A3B8;
+    color: #FFE6E6;
     font-weight: 600;
     text-transform: uppercase;
 }
@@ -189,18 +189,18 @@ position: absolute;
 }
 .experince__desc-position{
     margin: 0 0 15px;
-    color: #94A3B8;
+    color: #FFE6E6;
     font-size: 20px;
 }
 .experience__desc-list li{
-    color: #94A3B8;
+    color: #FFE6E6;
     margin: 15px 0px;
 }
 .experince-content:hover {
     background: #94a3b81b;
 }
 .experince-content:hover h4{
-    color: #4cceac;
+    color: #BD1616;
 }
 
 .project-card{
@@ -244,7 +244,7 @@ position: absolute;
     z-index: -999;
     width: 300px;
     height: 300px;
-    background-color: #104ce25e;
+    background-color: #bd16167c;
     border-radius: 50%;
     pointer-events: none;
     transform: translate(-50%, -50%);
