@@ -1,7 +1,7 @@
 # My reports for every day
 
 1. [28.11.2023] First day 
- **Initialization of the project**
+**Initialization of the project**
 2. [29.11.2023] Second day 
 **Developed the left panel, with basic information**
 3. [30.11.2023] Third day  
@@ -16,3 +16,5 @@
 **Added "Awards" section**
 8. [05.12.2023] Eighth day
 **Change color pallette**
+9. [06.12.2023] Nineth day
+**Added js**

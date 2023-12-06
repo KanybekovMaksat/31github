@@ -37,7 +37,8 @@ var introSlide = new Swiper(".intro__slider", {
   
 
 
-
+  AOS.init();
+  
 // anime({
 //     targets: '.function-based-values-demo .el',
 //     left: function (el) {
