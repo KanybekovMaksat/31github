@@ -18,3 +18,5 @@
 **Change color pallette**
 9. [06.12.2023] Nineth day
 **Added js**
+10. [07.12.2023] Tenth day
+**Install React.js**
