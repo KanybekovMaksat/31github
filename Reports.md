@@ -22,3 +22,5 @@
 **Install React.js**
 11. [08.12.2023] Eleventh day
 **React.js config**
+12. [09.12.2023] Twelfth day
+**Transfered the code from html to**

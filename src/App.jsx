@@ -1,17 +1,27 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="./style.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-</head>
-
-<body>
-    <div id="page">
+import React from 'react'
+import "./index.css";
+const App = () => {
+  document.addEventListener('mousemove', (e) => {
+    const spotlight = document.getElementById('spotlight');
+    spotlight.style.left = e.pageX + 'px';
+    spotlight.style.top = e.pageY + 'px';
+  });
+  
+  document.addEventListener('mouseenter', () => {
+    const spotlight = document.getElementById('spotlight');
+    spotlight.style.width = '300px';
+    spotlight.style.height = '300px';
+  });
+  
+  document.addEventListener('mouseleave', () => {
+    const spotlight = document.getElementById('spotlight');
+    spotlight.style.width = '300px';
+    spotlight.style.height = '300px';
+  });
+  
+  return (
+    <>
+        <div id="page">
         <aside id="sidebar">
             <h1 class="sidebar-title animate__animated animate__backInLeft">Максат Каныбеков</h1>
             <h3 class="sidebar-subtitle  animate__animated animate__backInLeft">
@@ -70,7 +80,7 @@
                     тенденций в мире веб-технологий.
                 </p>
                 <p class="about__text">
-                    В свободное время от работы я увлекаюсь созданием своего <br> стартапа <span class="mark-box">
+                    В свободное время от работы я увлекаюсь созданием своего <br/> стартапа <span class="mark-box">
                         Charba</span>, стремясь внести свой вклад
                     в инновационные решения в сфере, которая меня страстно интересует.
                 </p>
@@ -120,9 +130,9 @@
             <section id="projects">
                 <h2 class="section-title">Проекты</h2>
                 <a href="#" class="project-card">
-                    <img src="./assets/multimedia/project_beeline.png" alt="">
+                    <img src="./assets/multimedia/project_beeline.png" alt=""/>
                     <div class="project__card-info">
-                        <h3 class="project__card-title">Создание платформы для <br> профессиональной ориентации</h3>
+                        <h3 class="project__card-title">Создание платформы для <br/> профессиональной ориентации</h3>
                         <p class="project__card-desc">
                             система научно обоснованных мероприятий, направленных на подготовку молодёжи к выбору профессии, на оказание помощи молодёжи в профессиональном самоопределении и трудоустройстве.
                         </p>
@@ -134,9 +144,9 @@
                     </div>
                 </a>
                 <a href="#" class="project-card">
-                    <img src="./assets/multimedia/project_beeline.png" alt="">
+                    <img src="./assets/multimedia/project_beeline.png" alt=""/>
                     <div class="project__card-info">
-                        <h3 class="project__card-title">Создание платформы для <br> профессиональной ориентации</h3>
+                        <h3 class="project__card-title">Создание платформы для <br/> профессиональной ориентации</h3>
                         <p class="project__card-desc">
                             система научно обоснованных мероприятий, направленных на подготовку молодёжи к выбору профессии, на оказание помощи молодёжи в профессиональном самоопределении и трудоустройстве.
                         </p>
@@ -148,9 +158,9 @@
                     </div>
                 </a>
                 <a href="#" class="project-card">
-                    <img src="./assets/multimedia/project_beeline.png" alt="">
+                    <img src="./assets/multimedia/project_beeline.png" alt=""/>
                     <div class="project__card-info">
-                        <h3 class="project__card-title">Создание платформы для <br> профессиональной ориентации</h3>
+                        <h3 class="project__card-title">Создание платформы для <br/> профессиональной ориентации</h3>
                         <p class="project__card-desc">
                             система научно обоснованных мероприятий, направленных на подготовку молодёжи к выбору профессии, на оказание помощи молодёжи в профессиональном самоопределении и трудоустройстве.
                         </p>
@@ -167,19 +177,19 @@
                     <div class="intro__slider">
                     <div class="swiper-wrapper intro__wrapper">
                         <div class="intro__content swiper-slide">
-                        <img src="./assets/multimedia/certificate_0.jpg" alt="">
+                        <img src="./assets/multimedia/certificate_0.jpg" alt=""/>
                         </div>
                         <div class="intro__content swiper-slide">
-                            <img src="./assets/multimedia/certificate_01.jpg" alt="">
+                            <img src="./assets/multimedia/certificate_01.jpg" alt=""/>
                         </div>
                         <div class="intro__content swiper-slide">
-                        <img src="./assets/multimedia/certificate_02.jpg" alt="">
+                        <img src="./assets/multimedia/certificate_02.jpg" alt=""/>
                         </div>
                         <div class="intro__content swiper-slide">
-                            <img src="./assets/multimedia/certificate_03.jpg" alt="">
+                            <img src="./assets/multimedia/certificate_03.jpg" alt=""/>
                             </div>
                             <div class="intro__content swiper-slide">
-                                <img src="./assets/multimedia/certificate_04.jpg" alt="">
+                                <img src="./assets/multimedia/certificate_04.jpg" alt=""/>
                                 </div>
 
                     </div>
@@ -191,12 +201,8 @@
         </div>
     </div>
     <div id="spotlight"></div>
-    <script src="./assets/scripts/lib/anime.min.js"></script>
+    </>
+  )
+}
 
-    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script type="module" src="./index.js"></script>
-</body>
-
-</html>
+export default App
