@@ -24,3 +24,5 @@
 **React.js config**
 12. [09.12.2023] Twelfth day
 **Transfered the code from html to**
+13. [10.12.2023]  Thirteenth day
+**Create componemts**
