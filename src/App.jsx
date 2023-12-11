@@ -2,6 +2,7 @@ import React from 'react'
 import "./index.css";
 import Aside from './components/Aside';
 import Content from './components/Content';
+
 const App = () => {
   document.addEventListener('mousemove', (e) => {
     const spotlight = document.getElementById('spotlight');
