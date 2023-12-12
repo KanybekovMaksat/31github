@@ -7,7 +7,7 @@
 **Initialization of the project**
 2. [29.11.2023] Second day 
 **Developed the left panel, with basic information**
-3. [30.11.2023] Third day  
+3. [30.11.2023] Third day
 **Added animation library**
 4. [01.12.2023] Fourth day 
 **Added "About me" section**
@@ -31,3 +31,5 @@
 **Create componemts**
 14. [11.12.2023] Fourteenth day
 **Added route**
+15. [12.12.2023] Fifteenth day
+**Breakdown into components**
