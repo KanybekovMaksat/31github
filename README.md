@@ -33,3 +33,5 @@
 **Added route**
 15. [12.12.2023] Fifteenth day
 **Breakdown into components**
+16. [13.12.2023] Sixteenth day
+**Styled Experience card and create Spotlight**
