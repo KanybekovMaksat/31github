@@ -30,8 +30,10 @@
 13. [10.12.2023]  Thirteenth day
 **Create componemts**
 14. [11.12.2023] Fourteenth day
-**Added route**
+**Install react-router-dom**
 15. [12.12.2023] Fifteenth day
 **Breakdown into components**
 16. [13.12.2023] Sixteenth day
 **Styled Experience card and create Spotlight**
+17. [14.12.2023] Seventeenth day
+**Added routing**

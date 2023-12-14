@@ -1,21 +1,18 @@
 import React from 'react'
+import { BrowserRouter } from 'react-router-dom';
+
 import "./index.css";
 
-import Aside from './components/Aside';
-import Content from './components/Content';
-import Spotlight from './components/Spotlight';
+import Router from './pages/route';
+import Spotlight from "./components/Spotlight";
+
 
 const App = () => {
-
-  
   return (
-    <>
-    <div id="page">
-            <Aside/>
-            <Content/>
-    </div>
-    <Spotlight/>
-    </>
+    <BrowserRouter>
+      <Router />
+      <Spotlight />
+    </BrowserRouter>
   )
 }
 
