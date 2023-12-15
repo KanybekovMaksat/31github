@@ -37,3 +37,5 @@
 **Styled Experience card and create Spotlight**
 17. [14.12.2023] Seventeenth day
 **Added routing**
+18. [15.12.2023] Eighteenth day
+**Added data base (projects, experience)**

@@ -1,10 +1,11 @@
 import React from 'react'
+import ProjectImg from "../assets/multimedia/project_beeline.png"
 
 const ProjectCard = () => {
   return (
     <>
             <a href="#" class="project-card">
-            <img src="./assets/multimedia/project_beeline.png" alt=""/>
+            <img src={ProjectImg} alt=""/>
             <div class="project__card-info">
                 <h3 class="project__card-title">Создание платформы для <br/> профессиональной ориентации</h3>
                 <p class="project__card-desc">
@@ -18,7 +19,7 @@ const ProjectCard = () => {
             </div>
         </a>
         <a href="#" class="project-card">
-            <img src="./assets/multimedia/project_beeline.png" alt=""/>
+        <img src={ProjectImg} alt=""/>
             <div class="project__card-info">
                 <h3 class="project__card-title">Создание платформы для <br/> профессиональной ориентации</h3>
                 <p class="project__card-desc">
@@ -32,7 +33,7 @@ const ProjectCard = () => {
             </div>
         </a>
         <a href="#" class="project-card">
-            <img src="./assets/multimedia/project_beeline.png" alt=""/>
+        <img src={ProjectImg} alt=""/>
             <div class="project__card-info">
                 <h3 class="project__card-title">Создание платформы для <br/> профессиональной ориентации</h3>
                 <p class="project__card-desc">

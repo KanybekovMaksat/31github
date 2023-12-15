@@ -5,7 +5,7 @@ const Aside = () => {
     <aside id="sidebar">
     <h1 class="sidebar-title animate__animated animate__backInLeft">Максат Каныбеков</h1>
     <h3 class="sidebar-subtitle  animate__animated animate__backInLeft">
-        Я <span class="auto-type"></span>
+        Я FRONT-END Разработчик
     </h3>
     <p class="sidebar-text animate__animated animate__backInLeft">
         Разработчик с влюбленностью в код и страстью к созданию визуальной магии в онлайн-мире.
