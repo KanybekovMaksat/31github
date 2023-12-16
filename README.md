@@ -39,3 +39,5 @@
 **Added routing**
 18. [15.12.2023] Eighteenth day
 **Added data base (projects, experience)**
+19. [16.12.2023] Nineteenth day
+**Refactoring**
