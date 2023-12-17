@@ -41,3 +41,5 @@
 **Added data base (projects, experience)**
 19. [16.12.2023] Nineteenth day
 **Refactoring**
+20. [17.12.2023] Twentieth day 
+**Added experience**

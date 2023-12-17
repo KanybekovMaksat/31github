@@ -42,6 +42,25 @@ const ExperienceCard = () => {
                 </div>
             </div>
         </div>
+        <div class="experince-content">
+            <div class="experience__content-date">СЕНТЯБРЬ 2022 - <br /> НОЯБРЬ 2022</div>
+            <div class="exprerince__content-desc">
+                <h4 class="experince__desc-position">Front-End Разработчик | Хакатон "Kyrgyz Language and IT"</h4>
+                <p>платформа для изучения кыргызского языка, аналог Duolingo </p>
+                <ul class="experience__desc-list">
+                    <li> Получили номинацию “Лучшее веб-приложение” на хакатоне</li>
+                    <li>
+                    Разработал механизм отправки данных о знаниях пользователя на сервер с использованием Axios, RTK Query. </li>
+                    <li>Повысил привлекательность сайта с помощью анимаций с использованием React-Transition-Group</li>
+                    <li>Реализовал систему авторизации пользователя с применением Axios, Redux Toolkit</li>
+                </ul>
+                <div class="experience__desc-skills">
+                    <span class="skill-box">React.Js</span>
+                    <span class="skill-box">React Transition Group</span>
+                    <span class="skill-box">Redux Toolkit</span>
+                </div>
+            </div>
+        </div>
     </>
   )
 }
