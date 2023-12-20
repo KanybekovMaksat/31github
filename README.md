@@ -47,3 +47,5 @@
 **Refactoring**
 22. [19.12.2023] Twenty-second day 
 **Experience Refactoring**
+23. [20.12.2023] Twenty-third day 
+**Refactoring**
